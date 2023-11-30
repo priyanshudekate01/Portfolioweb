@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: bisque;
+}
+.navblock{
+    overflow: hidden;
+    position: fixed;  
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;  
+    top: 0px; 
+    cursor: pointer; 
+}
+
+.nav-list{
+    display: flex;
+    
+}
+.nav-list li{
+    padding: 20px;
+    margin-right: 50px;
+   
+}
+a{
+    text-decoration: none;
+    
+}
+li{
+    list-style: none;
+}
+
+.navblock .nav-list li a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.navblock .nav-list li a:hover{
+    color: #6DB9EF;
+}
+
+.container{
+    width: 100%;
+
+}
+
+.container .left{
+    /* background-color: red; */
+    width: 50%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .left .data{
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+.container .left .data .line1{
+    color: grey;
+    margin: 20px;
+}
+.container .left .data .line2{
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.container .left .data .line3{
+    margin-top: 5px;
+    margin-left: 37px;
+    opacity: 0.5;
+}
+.container .left .data .btn{
+    margin-left: 25px;
+    margin-top: 15px;
+    height: 30px;
+    width: 100px;
+    background-color: #6DB9EF;
+    border-radius: 20px;
+    border: none;
+    
+
+}
+
+.container .left .data .btn a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.container .right{
+    /* background-color: yellow; */
+    width: 50%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .right img{
+    height: 550px;
+    width: 600px;
+}

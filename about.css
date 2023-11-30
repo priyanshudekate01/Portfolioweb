@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: bisque;
+}
+.navblock{
+    overflow: hidden;
+    position: fixed;  
+    height: 50px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;  
+    top: 0px; 
+    cursor: pointer; 
+}
+
+.nav-list{
+    display: flex;
+    
+}
+.nav-list li{
+    padding: 20px;
+    margin-right: 50px;
+   
+}
+a{
+    text-decoration: none;
+    
+}
+li{
+    list-style: none;
+}
+
+.navblock .nav-list li a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.navblock .nav-list li a:hover{
+    color: #6DB9EF;
+}
+
+.container{
+    width: 100%;
+}
+.container .info{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .info .data .line1{
+    color: grey;
+    margin-top: 20px;
+    margin-left: 42%;
+}
+
+.container .info .data .line2{
+    color: #6DB9EF;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 33%;
+}
+.container .info .data h3{
+    justify-content: center;
+}
+
+.container .info .data .line3{
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.container .info .data .line4{
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.container .info .data .line5{
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.container .info .data .line5 span{
+    color: #6DB9EF;
+}
+
+.container .info .data .line6{
+    margin-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
